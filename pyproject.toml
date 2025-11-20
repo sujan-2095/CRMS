@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "repl-nix-workspace"
 version = "0.1.0"
@@ -15,3 +19,5 @@ dependencies = [
     "wtforms>=3.2.1",
     "flask-wtf>=1.2.2",
 ]
+
+[tool.setuptools.packages.find]
